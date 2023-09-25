@@ -13,7 +13,7 @@ body {
 }
 
 .app-container {
-  max-width: 480px;
+  max-width: 640px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,6 @@ body {
   padding: 4em 2em;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-  /* border: 1px solid green; */
 }
 
 .img-container {
@@ -61,7 +60,6 @@ h1 {
   flex-wrap: wrap;
   gap: 0.5em;
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 .from-to-input {
@@ -95,20 +93,19 @@ h2 {
 
 .endorsements-container {
   display: flex;
-  flex-direction: column;
-  max-width: 100%;
+  flex-direction: column-reverse;
+  width: 100%;
 }
 
 .endorsement {
-  max-width: 100%;
   display: flex;
   flex-direction: column;
-  /* align-items: start; */
   background: #f0eef7;
   color: #1b1924;
   font-family: "Inter", sans-serif;
   padding: 0.875em;
   border-radius: 4px;
+  margin-bottom: 1em;
 }
 
 .from-tag,
@@ -126,6 +123,7 @@ h2 {
 }
 
 .bottom {
+  font-weight: 700;
   margin-top: auto;
   display: flex;
   justify-content: space-between;
